@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Primeira Página</title>
+    <style>
+        /* Estilo do corpo da página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Estilo dos títulos */
+        h1 {
+            color: #2c3e50;
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #16a085;
+            margin-top: 10px;
+        }
+
+        /* Estilo para links */
+        a {
+            text-decoration: none;
+            color: #2980b9;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        a:hover {
+            color: #c0392b;
+        }
+
+        /* Estilo para as imagens */
+        img {
+            width: 200px;
+            margin: 20px 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Sobre Mim</h1>
+    <h2>Meus Hobbies</h2>
+
+    <!-- Links -->
+    <div>
+        <a href="https://www.google.com/?hl=pt_BR">Google</a>
+        <a href="https://www.youtube.com/">YouTube</a>
+        <a href="contato.html">Contato</a>
+    </div>
+
+    <!-- Imagens -->
+    <div>
+        <img src="imagem.jpg" alt="foto moto">
+        <img src="https://www.motoo.com.br/fotos/2024/11/960_720/yamaha_lander_2025_1_02112024_61646_960_720.jpg" alt="moto yamaha">
+    </div>
+
+</body>
+</html>
